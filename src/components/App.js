@@ -1,11 +1,12 @@
 
-import React from "react";
 import './../styles/App.css';
-
+import React from 'react'
+import Wether from './Wether'
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+
+      <Wether></Wether>
     </div>
   )
 }
